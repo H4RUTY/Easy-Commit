@@ -94,8 +94,8 @@ select_commit_type() {
     echo "[1] feat:     新機能追加"
     echo "[2] fix:      バグ修正"
     echo "[3] docs:     ドキュメントのみの変更"
-    echo "[4] style:    コードの意味に影響しない変更（空白、インデントの修正など）"
-    echo "[5] refactor: バグ修正でも機能追加でもない変更（可読性・保守性のための変更など）"
+    echo "[4] style:    コードの意味に影響しない変更（空白、インデントなど）"
+    echo "[5] refactor: バグ修正でも機能追加でもない変更（可読性・保守性向上など）"
     echo "[6] perf:     パフォーマンス向上のための変更"
     echo "[7] test:     テスト追加・修正"
     echo "[8] chore:    ビルドや補助的タスク（ライブラリ変更など）"
@@ -303,8 +303,6 @@ final_commit() {
 
 # メイン処理
 main() {
-    echo -e "${BLUE}=== Gemini CLI Easy Commit ===${NC}"
-    
     # 前提条件チェック
     check_git_repo
     check_gemini_cli

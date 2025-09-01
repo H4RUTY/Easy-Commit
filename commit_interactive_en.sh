@@ -303,8 +303,6 @@ final_commit() {
 
 # Main process
 main() {
-    echo -e "${BLUE}=== Gemini CLI Easy Commit ===${NC}"
-    
     # Check prerequisites
     check_git_repo
     check_gemini_cli
