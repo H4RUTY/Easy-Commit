@@ -15,7 +15,7 @@ Gemini CLIを使用してコミットメッセージを自動生成
 [commit_interactive_en.sh](https://github.com/H4RUTY/Easy-Commit/blob/main/commit_interactive_en.sh) / [commit_interactive_ja.sh](https://github.com/H4RUTY/Easy-Commit/blob/main/commit_interactive_ja.sh)
 
 - 対話形式でコミットメッセージを作成
-- 自分でコミットメッセージを書くManualモード / Geminiモード切り替え
+- Manualモード / Geminiモード切り替え可能
 
 
 <br>
